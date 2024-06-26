@@ -1,24 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+    <center>
+        <h1 style="font-size: 70px;">🥳 Number Guessing Game 🥳</h1>
+        <h2 style="font-size: 55px;">Guess a Number between 1 to 10</h2>
+        <div class="form">
+            <label for="guessField">
+                Enter a guess :
+            </label>
 
-    <h1>🥳 Number Guessing Game 🥳</h1>
-    <h2>Guess a Number between 1 to 10</h2>
-    <div class="form">
-        <label for="guessField">
-            Enter a guess :
-        </label>
+            <input style="font-size: 30px;" type="text" id="guessField" class="guessField">
 
-        <input type="text" id="guessField" class="guessField">
+            <input style="font-size: 30px; background-color: 	#46df1cea;"  value="        Submit guess" class="guessSubmit" id="submitguess">
+        </div>
+    </center>
 
-        <input type="submit" value="Submit guess" class="guessSubmit" id="submitguess">
-    </div>
-    
+
+
     <script src="app.js"></script>
 </body>
+
 </html>
