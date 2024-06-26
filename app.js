@@ -38,6 +38,42 @@
 // console.log(customer01.getAge());
 
 
+//ARRAYS IN JAVASCRIPT
+
+// let customers = [
+//     {
+//         name:"saman",
+//         age:12,
+//         address:"gamapaha"
+//     },
+//     12,
+//     [
+//         {
+//             name:"wimal"
+//         },
+//         {
+//             name:"kamal"
+//         },
+//         {
+//             name:"sunil"
+//         },
+//         12
+//     ],
+//     "vimal",
+//     {},
+//     {},
+//     {}
+// ]
+
+
+
+// console.log(customers[2]);
+
+// customers[2].forEach(nameObj => {
+//     console.log(nameObj.name);
+// })
+
+
 let randomNumber = Math.floor((Math.random()*10)+1);
 console.log(randomNumber);
 
