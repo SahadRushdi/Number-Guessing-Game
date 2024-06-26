@@ -44,5 +44,15 @@ console.log(randomNumber);
 let guess = 1;
 
 document.getElementById("submitguess").onclick = function() {
-    
+    let numberEnteredByUser = document.getElementById("guessField").value;
+
+    if (numberEnteredByUser==randomNumber) {
+        alert("🏆CONGRATULATIONS🏆 you guessed it right in " +guess + " GUESS")
+    }else if (numberEnteredByUser>randomNumber) {
+        guess++;
+        alert("😢 Try a Smaller Number 😢")
+    }else {
+        guess++;
+        alert("🤭 Try a Larger Number 🤭")
+    }
 }
